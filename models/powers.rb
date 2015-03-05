@@ -1,3 +1,4 @@
 class Power < ActiveRecord::Base
-  belongs_to :wizard
+  has_many :powers_wizards
+  has_many :wizards, :through => :powers_wizards
 end
