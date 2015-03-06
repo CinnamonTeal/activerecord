@@ -27,3 +27,4 @@ set the id
 so now we have powers that can belong to only 1 wizard and wizards having many powers, how to make wizards be able to have many powers AND powers belong to many wizards?
 JOIN table
 ok now let's run through the query interface you guys built
+
